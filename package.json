@@ -1,0 +1,15 @@
+{
+  "name": "sass-training-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "kim": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "kim",
+  "license": "ISC"
+}

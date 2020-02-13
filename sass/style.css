@@ -1,0 +1,167 @@
+.form__button--submit {
+  padding: 1.2em 2em;
+  background: none;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 90px;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__soon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__soon--rest {
+  color: #969696;
+  font-weight: normal;
+  padding-right: 0.3em;
+}
+
+.container__subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: normal;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__input--email {
+  margin-right: 1em;
+  width: 400px;
+  padding: 1.2em 2em;
+  border-radius: 20px;
+  border: 1px solid #969696;
+}
+
+.form__input--email:hover {
+  -webkit-box-shadow: 3px 4px 35px -6px #c2d3ff;
+          box-shadow: 3px 4px 35px -6px #c2d3ff;
+}
+
+.form__button--submit {
+  background-color: #4f7df3;
+  width: 100px;
+}
+
+.form__button--submit:hover {
+  -webkit-box-shadow: 3px 4px 35px -6px #c2d3ff;
+          box-shadow: 3px 4px 35px -6px #c2d3ff;
+}
+
+.dash {
+  text-align: center;
+  height: 40rem;
+  margin-top: 3rem;
+}
+
+.dash__img {
+  width: 60%;
+  display: inline-block;
+}
+
+#social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#social .fab {
+  color: #4f7df3;
+  margin: 0 1em;
+  padding: 0.5em;
+  border-radius: 50%;
+  border: 1px solid #c2d3ff;
+}
+
+#social .fab:hover {
+  background-color: #c2d3ff;
+}
+
+h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: silver;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+footer .attribution {
+  color: #4f7df3;
+}
+
+footer .attribution a {
+  text-decoration: none;
+  color: #4f7df3;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form__input--email {
+    width: 250px;
+    margin-bottom: 2em;
+    margin-right: 0em;
+  }
+  .form__button--submit {
+    width: 300px;
+  }
+  .dash {
+    height: 20rem;
+  }
+  .dash__img {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
